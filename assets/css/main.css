@@ -1,0 +1,19 @@
+.nasa_gallery {
+    width: 100%;
+}
+
+.nasa_gallery div.item img {
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.nasa_gallery .item {
+    opacity: 0.8;
+    padding: 20px;
+    transition: 0.2s;
+}
+.nasa_gallery .slick-current {
+    opacity: 1;
+    transform: scale(1.08);
+    transition: 0.2s;
+}
